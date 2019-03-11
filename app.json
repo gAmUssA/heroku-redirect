@@ -4,6 +4,10 @@
   "env": {
     "NEW_BASE_URL": {
       "description": "Redirect all requests to this URL.",
+      "value": "http://www.example.com"
+    },
+    "NEW_ROOT_URL": {
+      "description": "Redirect all requests to this URL (not www)",
       "value": "http://example.com"
     },
     "REDIRECT_STATUS": {
